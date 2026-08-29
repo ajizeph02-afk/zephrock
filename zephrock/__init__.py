@@ -7,5 +7,8 @@ built as a standalone companion to Zephmatic/Zephslide/Zephflac.
 See hoek_brown.py's module docstring for scope, methodology, and citations.
 """
 from .hoek_brown import HoekBrownMaterial, MohrCoulombEquivalent, self_consistency_check
+from .power_curve import PowerCurveCriterion
+from .barton_bandis import BartonBandisJoint
 
-__all__ = ["HoekBrownMaterial", "MohrCoulombEquivalent", "self_consistency_check"]
+__all__ = ["HoekBrownMaterial", "MohrCoulombEquivalent", "self_consistency_check",
+           "PowerCurveCriterion", "BartonBandisJoint"]
